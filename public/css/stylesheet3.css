@@ -1,0 +1,49 @@
+
+body
+{
+	margin:30px;
+	display:block;
+	background-color:#033482; 
+}
+li
+{
+	background-color: grey;
+	padding:10px;
+	list-style: none;
+}
+.row h2
+{
+	padding-top: 57px;
+	text-decoration: underline;
+	color: #605858;
+	font-family: 'Luckiest Guy', cursive;
+	text-shadow:3px 3px 10px red;
+}
+.navbar-fixed-top
+{
+	background-image: url('../images/img1.jpg'); 
+}
+#added
+{
+	width:100%;
+
+}
+ td 
+{ 
+	padding: 5px; 
+} /* cellpadding */
+#upform
+{
+	display:none;
+}
+
+#myHeader
+   {
+      padding-top: 5px;
+      padding-left: 600px;
+      padding:10px , 50px;
+      font-size: 40px;
+      text-shadow:3px 3px 10px black;
+      color: white;
+      font-family: 'Luckiest Guy', cursive;
+   }

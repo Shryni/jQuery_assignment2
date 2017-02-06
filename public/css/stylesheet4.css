@@ -1,0 +1,83 @@
+body
+{
+	display:block;
+	background-color: #d6fcbf;
+
+}
+#cont
+{
+	height: 750px;
+}
+#box{
+	border: 2px solid black;
+	box-shadow: 2px 2px 15px #f48bd3;
+	display: none;
+	text-align: center;
+	font-family: 'Droid Sans Mono', monospace;
+	color: #164670;
+}
+strong
+{
+	color: #aa0f06;
+	text-decoration: underline;
+}
+.row h2
+{
+	padding-top: 30px;
+	text-decoration: underline;
+	color: #605858;
+	font-family: 'Luckiest Guy', cursive;
+	text-shadow:3px 3px 10px #79a7f2;
+}
+.navbar-fixed-top
+{
+	background-image: url('../images/img1.jpg'); 
+}
+#heading
+{
+	color: white;
+	font-family: 'Passion One', cursive;
+	font-size: 30px;
+	text-shadow:3px 3px 8px black;
+}
+
+#upform
+{
+	display:none;
+}
+table
+{
+	font-family: 'Audiowide', cursive;
+	/*position: relative;
+	 border-collapse: separate;
+*/
+}
+#footerid
+{
+	margin-top: 20px;
+	padding-top: 5px;
+	background-color: #b8bdc1;
+	border: 1px solid black;
+}
+#footerlogo
+{
+	font-family: 'Luckiest Guy', cursive;
+	font-weight: bold;
+}
+
+
+@media screen and (max-width: 767px) {
+  table {
+    font-size: .8em;
+  }
+}
+@media screen and (max-width: 640px) {
+  table {
+    font-size: .6em;
+  }
+}
+@media screen and (max-width: 767px) {
+  table {
+    font-size: .5em;
+  }
+}
